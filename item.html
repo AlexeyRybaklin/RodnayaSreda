@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТЦ Мармелад - Родная среда</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: white;
+      background-image: linear-gradient(90deg, #9C27B0, #673AB7);
+      color: white;
+    }
+    .card {
+      color: black;
+    }
+    .btn-outline-primary {
+        color: #9C27B0;
+        border-color: #9C27B0;
+        
+    }
+    .btn-outline-primary:hover {
+        background-color: #9C27B0;
+        border-color: #9C27B0;
+    }
+    .btn-primary {
+        background-color: #9C27B0;
+        border-color: #9C27B0;
+    }
+    .btn-primary:hover {
+        background-color: #673AB7;
+        border-color: #673AB7;
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar bg-light mb-3">
+        <div class="container-fluid">
+             <a href="main.html" class="navbar-brand">Родная среда</a>
+             <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Найти" aria-label="Search">
+             </form>
+             <div class="d-flex align-items-center">
+                <button onclick="window.location.href ='login.html';" type="button" class="btn btn-outline-primary px-3 me-2">
+                Войти
+                </button>
+                <button onclick="window.location.href = 'signup.html';" type="button" class="btn btn-primary me-3">
+                Впервые тут?
+                </button>
+              </div>
+        </div>
+    </nav>
+
+
+<div class="row">
+    <div class="col-lg-6">
+        <h1 class="m-3">ТЦ Мармелад</h1>
+        <h5 class="m-3">Категория: Парки</h5>
+        <h5 class="m-3"><i class="bi bi-star"></i> 4</h5>
+        
+        <div class="row">
+            <div class="col-lg-10">
+                <p class="m-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur commodi excepturi neque. Minus natus ratione exercitationem maiores harum sint ad.</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-8">
+                <h4 class="m-3 border-bottom">г. Таганрог, Ростовская обл.</h4>
+                <div class="container">
+                  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A879e34268337b0f410667a6ee2134adf5009b52514bb767b787d48f34f0ff549&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <img src="https://photo.foto-planeta.com/view/1/0/5/9/7/taganrog-1059799.jpg" class="mb-2 box shadow" width="1000" height="700" alt="">
+        <p>Owner: admin</p>
+
+        <h2>Время работы</h2>
+        <h5>понедельник-пятница: 8:00 - 22:00</h5>
+    </div>
+</div>
+    
+
+<h2 class="m-5 border-bottom">Отзывы</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header"> <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="35"
+                    width="35"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  /> Имя Фамилия</div>
+                <div class="card-body">
+                  <i class="bi bi-star"> 5</i><h5>Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header"> <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="35"
+                    width="35"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  /> Имя Фамилия</div>
+                <div class="card-body">
+                  <i class="bi bi-star"> 5</i><h5>Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header"> <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="35"
+                    width="35"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  /> Имя Фамилия</div>
+                <div class="card-body">
+                    <i class="bi bi-star"> 5</i><h5>Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card mb-3" style="max-width: 18rem;">
+                <div class="card-header"> <img
+                    src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                    class="rounded-circle"
+                    height="35"
+                    width="35"
+                    alt="Black and White Portrait of a Man"
+                    loading="lazy"
+                  /> Имя Фамилия</div>
+                <div class="card-body">
+                    <i class="bi bi-star"> 5</i><h5>Primary card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+crossorigin="anonymous"></script>
+</body>
