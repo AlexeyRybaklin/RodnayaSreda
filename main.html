@@ -38,7 +38,7 @@ crossorigin="anonymous">
     display: inline-block;
     }
     .box {
-        width: 310px;
+        width: 850px;
         height: 700px;
     }
     .btn-outline-primary {
@@ -86,6 +86,14 @@ crossorigin="anonymous">
 <div class="container">
     <div class="row">
         <div class="col-lg-4">
+            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Новости</span></div>
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#">Это бегущая строка</a> <span class="dot"></span> <a href="#">И это тоже</a> <span class="dot"></span> <a href="#">И даже это</a>
+                </marquee>
+            </div>
+           
+        </div>
+        <div class="col-lg-8">
             <select class="form-select mb-4" aria-label="Default select example">
                 <option selected>Выберите категории</option>
                 <option value="1">Больницы</option>
@@ -94,7 +102,7 @@ crossorigin="anonymous">
               </select> 
 
             <div class=" box overflow-auto">
-                <div class="card mt-3" style="width: 18rem;">
+                <div class="card mt-3" style="width: 50rem;">
                     <img class="card-img-top" src="https://photo.foto-planeta.com/view/1/0/5/9/7/taganrog-1059799.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3>Мармелад</h3>
@@ -103,7 +111,7 @@ crossorigin="anonymous">
                         <a href="item.html" class="card-link">Смотреть</a>
                     </div>
                 </div>
-                <div class="card mt-3" style="width: 18rem;">
+                <div class="card mt-3" style="width: 50rem;">
                     <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gorkypark_taganrog_2006.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3>Парк им. Горького</h3>
@@ -112,7 +120,7 @@ crossorigin="anonymous">
                         <a href="#" class="card-link">Смотреть</a>
                     </div>
                 </div>
-                <div class="card mt-3" style="width: 18rem;">
+                <div class="card mt-3" style="width: 50rem;">
                     <img class="card-img-top" src="http://sun9-77.userapi.com/impf/c834401/v834401360/1861ab/cqhu4IVuFQQ.jpg?size=700x464&quality=96&sign=978d2cb951517e9563b64279cdef4ed8&type=album" alt="Card image cap">
                     <div class="card-body">
                         <h3>ИКТИБ ЮФУ</h3>
@@ -121,7 +129,7 @@ crossorigin="anonymous">
                         <a href="#" class="card-link">Смотреть</a>
                     </div>
                 </div>
-                <div class="card mt-3" style="width: 18rem;">
+                <div class="card mt-3" style="width: 50rem;">
                     <img class="card-img-top" src="https://avatars.mds.yandex.net/get-altay/2004078/2a0000016c7bd81109182453aa21be5f13c1/XXL" alt="Card image cap">
                     <div class="card-body">
                         <h3>Приморский парк</h3>
@@ -132,14 +140,7 @@ crossorigin="anonymous">
                 </div>
             </div>
         </div>
-        <div class="col-lg-8">
-            <div class="d-flex justify-content-between align-items-center breaking-news bg-white">
-                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Новости</span></div>
-                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <a href="#">Это бегущая строка</a> <span class="dot"></span> <a href="#">И это тоже</a> <span class="dot"></span> <a href="#">И даже это</a>
-                </marquee>
-            </div>
-           
-        </div>
+        
     </div>
 </div>
 
