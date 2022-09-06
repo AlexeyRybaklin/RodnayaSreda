@@ -18,8 +18,7 @@ crossorigin="anonymous">
 
     body {
         font-family: 'Poppins', sans-serif;
-        background: white;
-        background-image: linear-gradient(90deg, #9C27B0, #673AB7);
+        background-image: linear-gradient(180deg, rgb(224, 217, 217), #98C1D9); 
     }
     .news { 
     width: 160px;
@@ -39,27 +38,22 @@ crossorigin="anonymous">
     }
     .box {
         width: 850px;
-        height: 700px;
-    }
-    .btn-outline-primary {
-        color: #9C27B0;
-        border-color: #9C27B0;
-        
-    }
-    .btn-outline-primary:hover {
-        background-color: #9C27B0;
-        border-color: #9C27B0;
+        height: 934px;
     }
     .btn-primary {
-        background-color: #9C27B0;
-        border-color: #9C27B0;
-    }
-    .btn-primary:hover {
-        background-color: #673AB7;
-        border-color: #673AB7;
+        background-color: #154074;
+        border-color: #154074;
     }
     .card {
         border: none;
+    }
+    .btn-dark {
+        background-color: #EE6E53;
+        border-color: #EE6E53;
+    }
+    .btn-dark:hover {
+        background-color: #dd644b;
+        border-color: #dd644b;
     }
 
 </style>
@@ -73,10 +67,10 @@ crossorigin="anonymous">
             <input class="form-control me-2" type="search" placeholder="Найти" aria-label="Search">
          </form>
          <div class="d-flex align-items-center">
-            <button onclick="window.location.href ='login.html';"  type="button" class="btn btn-outline-primary px-3 me-2">
+            <button onclick="window.location.href ='login.html';"  type="button" class="btn btn-primary px-3 me-2">
             Войти
             </button>
-            <button onclick="window.location.href = 'signup.html';" type="button" class="btn btn-primary me-3">
+            <button onclick="window.location.href = 'signup.html';" type="button" class="btn btn-dark me-3">
             Впервые тут?
             </button>
           </div>
